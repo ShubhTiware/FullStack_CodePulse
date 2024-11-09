@@ -1,0 +1,47 @@
+# ASP.NET Core specific files to ignore
+
+# Visual Studio artifacts
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+
+# Dependency directories
+node_modules/
+dist/
+wwwroot/lib/
+
+# Logs and debug output
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive settings
+appsettings.*.json
+appsettings.Development.json
+secrets.json
+
+# Rider IDE files
+.idea/
+*.sln.iml
+
+# Package management files
+**/packages/*
+**/project.lock.json
+**/project.fragment.lock.json
+
+# Publish output folders
+.publish/
+.publishoutput/
