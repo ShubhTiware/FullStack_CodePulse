@@ -45,3 +45,77 @@ secrets.json
 # Publish output folders
 .publish/
 .publishoutput/
+
+
+# Compiled output
+dist/
+build/
+
+# Node dependencies
+node_modules/
+
+# Angular generated files
+.angular/
+.angular-cache/
+
+# Environment settings
+src/environments/*.ts
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+yarn-error.log
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Temporary files
+temp/
+.tmp/
+*.tmp
+
+# Compiled JavaScript and TypeScript files
+*.js
+*.js.map
+*.d.ts
+
+# Coverage directory
+coverage/
+
+# Compiled Sass/CSS files
+*.sass-cache/
+*.scss-cache/
+*.css.map
+*.scssc
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional JetBrains Rider files
+.idea/
+
+# Optional VS Code workspace history
+.history/
+
+# Configuration and Environment files (optional, if containing sensitive information)
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# Package lock files (optional, if you’re using only Yarn or another package manager)
+package-lock.json
+yarn.lock
